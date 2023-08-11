@@ -3,7 +3,11 @@
     <header class="header">
       <label>
         Type pokemon name or ID:
-        <input type="text" v-model="pokemonID" />
+        <input
+          type="text"
+          v-model="pokemonID"
+          placeholder="enter pokemon ID!"
+        />
         <button class="searchBtn" @click="searchPokemon">
           Search pokemon!
         </button>
